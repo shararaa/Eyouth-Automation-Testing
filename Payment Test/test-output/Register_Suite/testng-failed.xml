@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Register_Suite]">
+  <test thread-count="5" name="Fawry_Payment(failed)">
+    <classes>
+      <class name="tests.FawryPaymentTests">
+        <methods>
+          <include name="FawryCodeIsSent"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="continueBTNIsVisible"/>
+          <include name="proceedBTNIsVisible"/>
+        </methods>
+      </class> <!-- tests.FawryPaymentTests -->
+      <class name="tests.CreditCardPaymentTests">
+        <methods>
+          <include name="InvalidCreditCard" invocation-numbers="0 1 2 3 4 5 6 7"/>
+          <include name="closeBrowser"/>
+          <include name="validCreditCard"/>
+          <include name="openBrowser"/>
+          <include name="creditCardIsAccessible"/>
+        </methods>
+      </class> <!-- tests.CreditCardPaymentTests -->
+    </classes>
+  </test> <!-- Fawry_Payment(failed) -->
+</suite> <!-- Failed suite [Register_Suite] -->

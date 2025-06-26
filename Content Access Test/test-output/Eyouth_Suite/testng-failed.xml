@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Eyouth_Suite]">
+  <test thread-count="5" name="Content Access(failed)">
+    <classes>
+      <class name="test.ContentAccess">
+        <methods>
+          <include name="userCanGetCertificate"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.ContentAccess -->
+    </classes>
+  </test> <!-- Content Access(failed) -->
+</suite> <!-- Failed suite [Eyouth_Suite] -->

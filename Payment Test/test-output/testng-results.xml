@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-08T06:06:33 EEST" name="Default suite" finished-at="2025-05-08T06:06:56 EEST" duration-ms="23302">
+    <groups>
+      <group name="fawry">
+        <method signature="FawryPaymentTests.continueBTNIsVisible()[pri:1, instance:tests.FawryPaymentTests@68ead359]" name="continueBTNIsVisible" class="tests.FawryPaymentTests"/>
+        <method signature="FawryPaymentTests.proceedBTNIsVisible()[pri:2, instance:tests.FawryPaymentTests@68ead359]" name="proceedBTNIsVisible" class="tests.FawryPaymentTests"/>
+        <method signature="FawryPaymentTests.FawryCodeIsSent()[pri:3, instance:tests.FawryPaymentTests@68ead359]" name="FawryCodeIsSent" class="tests.FawryPaymentTests"/>
+      </group> <!-- fawry -->
+    </groups>
+    <test started-at="2025-05-08T06:06:33 EEST" name="Default test" finished-at="2025-05-08T06:06:56 EEST" duration-ms="23302">
+      <class name="tests.FawryPaymentTests">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.FawryPaymentTests@68ead359]" started-at="2025-05-08T06:06:33 EEST" name="openBrowser" finished-at="2025-05-08T06:06:40 EEST" duration-ms="7026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="continueBTNIsVisible()[pri:1, instance:tests.FawryPaymentTests@68ead359]" started-at="2025-05-08T06:06:40 EEST" name="continueBTNIsVisible" finished-at="2025-05-08T06:06:51 EEST" duration-ms="10639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueBTNIsVisible -->
+        <test-method signature="proceedBTNIsVisible()[pri:2, instance:tests.FawryPaymentTests@68ead359]" started-at="2025-05-08T06:06:51 EEST" name="proceedBTNIsVisible" finished-at="2025-05-08T06:06:51 EEST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedBTNIsVisible -->
+        <test-method signature="FawryCodeIsSent()[pri:3, instance:tests.FawryPaymentTests@68ead359]" started-at="2025-05-08T06:06:51 EEST" name="FawryCodeIsSent" finished-at="2025-05-08T06:06:54 EEST" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FawryCodeIsSent -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.FawryPaymentTests@68ead359]" started-at="2025-05-08T06:06:54 EEST" name="closeBrowser" finished-at="2025-05-08T06:06:56 EEST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FawryPaymentTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

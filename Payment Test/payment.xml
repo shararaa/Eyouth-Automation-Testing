@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Register_Suite">
+  <test name="Fawry_Payment">
+    <classes>
+      <class name="tests.FawryPaymentTests"/>
+      <class name="tests.CreditCardPaymentTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
